@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Table
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: cards
+    name: View
+    cardSize: 360
+    markers: none
+    imageAspectRatio: 0.25
+    imageFit: contain

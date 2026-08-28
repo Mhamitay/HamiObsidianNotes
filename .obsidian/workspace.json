@@ -1,0 +1,263 @@
+{
+  "main": {
+    "id": "570db8a60164cd5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4dbcde73cbd47bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc115c178f6bc8dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05 Communication/PR Comments.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "PR Comments"
+            }
+          },
+          {
+            "id": "b51faf6b19149285",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05 Communication/PR Comments.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "PR Comments"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bc583536c970a789",
+    "type": "split",
+    "children": [
+      {
+        "id": "1eb4c5e383bd7e4d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38a1104824dac9b6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "82e46c13f3ad1b46",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5aae0f15ac301314",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d3ba819d5ee0683b",
+    "type": "split",
+    "children": [
+      {
+        "id": "63e827a4f05afadf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d2de93a4dadfec8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00 Dashboard/Home.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "3a10047fde887efe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00 Dashboard/Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "8e36ff70c548a1a1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e907b2f620d1e293",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6265848514304d9b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01 Dev Cabinet/01 Weekly Reports/2026-W29.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 387.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b51faf6b19149285",
+  "lastOpenFiles": [
+    "05 Communication/ThankYou-GoodWork.md",
+    "05 Communication/PR Comments.md",
+    "wi-3970.md",
+    "05 Communication/PR Comments/Good PR Comment Examples.md",
+    "00 Dashboard/01 Home.md",
+    "Useful Scripts/04 Lessons Learned.md",
+    "Sprint 31 Goals.md",
+    "02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/maintenancePart1.md",
+    "2026-07-27.md",
+    "01 Dev Cabinet/00 Daily Notes/2026-08-27.md",
+    "00 Dashboard/00 Index.base",
+    "01 Dev Cabinet/01 Weekly Reports/Template.md",
+    "01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-07-28.md",
+    "02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Meetings.md",
+    "01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-07-29.md",
+    "02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Goals.md",
+    "02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Bugs.md",
+    "02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Technical Decisions.md",
+    "02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Tasks.md",
+    "01 Dev Cabinet/02 Monthly Reviews/June 2026.md",
+    "02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1",
+    "02 Sprints/Current Sprint/00 2026",
+    "01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 4",
+    "01 Dev Cabinet/00 Daily Notes/2027",
+    "01 Dev Cabinet/00 Daily Notes/2026",
+    "01 Dev Cabinet/00 Daily Notes/2026/Aug26",
+    "01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-26.md",
+    "01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3",
+    "Wi-97.md",
+    "01 Dev Cabinet/00 Daily Notes/testr.md",
+    "01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-25.md",
+    "01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-24.md",
+    "01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-2 1.md",
+    "01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-20.md",
+    "02 Sprints/Archive",
+    "03 Knowledge Base/SQL"
+  ]
+}
