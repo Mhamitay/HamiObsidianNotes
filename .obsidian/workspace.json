@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/FieldPro/04 Lessons Learned/Bugs Fixed/Null Reference on Cancelled Work Orders.md",
+                "file": "Work/FieldPro/00 Dashboard/01 Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Null Reference on Cancelled Work Orders"
+              "title": "01 Home"
             }
           }
         ]
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/FieldPro/04 Lessons Learned/Bugs Fixed/Null Reference on Cancelled Work Orders.md",
+                "file": "Work/FieldPro/00 Dashboard/01 Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -253,14 +253,21 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "38a1104824dac9b6",
+  "active": "33667dd80c99ff5d",
   "lastOpenFiles": [
+    "Work/FieldPro/00 Dashboard/00 Index.base",
+    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-26.md",
+    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026-08-27.md",
+    "Work/FieldPro/00 Dashboard/01 Home.md",
+    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-18.md",
+    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-25.md",
+    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-20.md",
+    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-17.md",
+    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-07-29.md",
     "Work/FieldPro/04 Lessons Learned/Bugs Fixed/Null Reference on Cancelled Work Orders.md",
     "Work/FieldPro/00 Dashboard/Current Priorities.md",
     "Work/FieldPro/09 How To/Add a country.md",
     "Work/FieldPro/00 Dashboard/Open Bugs.md",
-    "Work/FieldPro/00 Dashboard/01 Home.md",
-    "Work/FieldPro/00 Dashboard/00 Index.base",
     "Personal/Untitled.md",
     "Work/FieldPro/00 Dashboard/01 Quick Links.md",
     "05 Communication/ThankYou-GoodWork.md",
@@ -275,14 +282,6 @@
     "01 Dev Cabinet/00 Daily Notes/2026-08-27.md",
     "00 Dashboard/00 Index.base",
     "01 Dev Cabinet/01 Weekly Reports/Template.md",
-    "01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-07-28.md",
-    "02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Meetings.md",
-    "01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-07-29.md",
-    "02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Goals.md",
-    "02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Bugs.md",
-    "02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Technical Decisions.md",
-    "02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Tasks.md",
-    "01 Dev Cabinet/02 Monthly Reviews/June 2026.md",
     "02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1",
     "02 Sprints/Current Sprint/00 2026",
     "01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 4",
