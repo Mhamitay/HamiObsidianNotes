@@ -1,0 +1,48 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "adaptive-soft",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "architecture": 1,
+    "bash": 2,
+    "bug": 3,
+    "communication": 4,
+    "csharp": 5,
+    "daily": 6,
+    "decision-record": 7,
+    "entity-framework": 8,
+    "fieldpro": 9,
+    "howto": 10,
+    "important": 11,
+    "json": 12,
+    "lesson-learned": 13,
+    "maintenancepart1": 14,
+    "meeting": 15,
+    "monthly-review": 16,
+    "performance": 17,
+    "powershell": 18,
+    "pr-comments": 19,
+    "reference": 20,
+    "retrospective": 21,
+    "snippet": 22,
+    "sprint": 23,
+    "sql": 24,
+    "standup": 25,
+    "suggestions": 26,
+    "wee2": 27,
+    "weekly": 28,
+    "weekly-report": 29,
+    "wi-3970": 30,
+    "y2026": 31,
+    "howto/sql": 1
+  },
+  "tagColors": {},
+  "_version": 4
+}

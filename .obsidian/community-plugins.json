@@ -1,4 +1,14 @@
 [
   "obsidian-rollover-daily-todos",
-  "dataview"
+  "dataview",
+  "calendar",
+  "obsidian-icon-folder",
+  "obsidian-file-color",
+  "colored-tags",
+  "obsidian-tasks-plugin",
+  "file-explorer-note-count",
+  "code-styler",
+  "agent-client",
+  "progressbar",
+  "pomodoro-timer"
 ]

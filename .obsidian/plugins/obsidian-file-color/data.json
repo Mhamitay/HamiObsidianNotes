@@ -1,0 +1,54 @@
+{
+  "cascadeColors": false,
+  "colorBackground": true,
+  "palette": [
+    {
+      "id": "_rFn6qYtNsTBxLSBG6zyD",
+      "name": "",
+      "value": "#cc0f0f"
+    },
+    {
+      "id": "s76eSNg0IeZKa8fWZgh19",
+      "name": "",
+      "value": "#ffffff"
+    },
+    {
+      "id": "U_t0BTyeEovRzRRy3UJb3",
+      "name": "",
+      "value": "#0bea1a"
+    },
+    {
+      "id": "gUGXJ90To4Nbfyyxp1UzH",
+      "name": "",
+      "value": "#bcf000"
+    },
+    {
+      "id": "f3hmq6PrUpa9XmyYSiOd5",
+      "name": "",
+      "value": "#0555f5"
+    },
+    {
+      "id": "flIuHID57Pn_vqGeba3hg",
+      "name": "",
+      "value": "#08f7e7"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Work/FieldPro",
+      "color": "_rFn6qYtNsTBxLSBG6zyD"
+    },
+    {
+      "path": "Work/FieldPro/00 Dashboard",
+      "color": "gUGXJ90To4Nbfyyxp1UzH"
+    },
+    {
+      "path": "Work",
+      "color": "gUGXJ90To4Nbfyyxp1UzH"
+    },
+    {
+      "path": "Personal",
+      "color": "s76eSNg0IeZKa8fWZgh19"
+    }
+  ]
+}
