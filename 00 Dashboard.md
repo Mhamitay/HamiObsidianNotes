@@ -61,9 +61,6 @@ SORT priority ASC
 
 ---
 
-
----
-
 ## 🔄 Recent Activity
 
 ```dataview

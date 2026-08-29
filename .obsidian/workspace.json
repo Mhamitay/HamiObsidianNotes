@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "5ae696a0f4ec0772",
+        "id": "cae452741f9763b1",
         "type": "tabs",
         "children": [
           {
-            "id": "6445b30a4dcab474",
+            "id": "449c1adb1ea05426",
             "type": "leaf",
             "state": {
-              "type": "keep-cards-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Card view"
+              "type": "markdown",
+              "state": {
+                "file": "Personal/yalat/Info.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Info"
             }
           }
         ]
@@ -97,8 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5,
-    "collapsed": true
+    "width": 336.5
   },
   "right": {
     "id": "d3ba819d5ee0683b",
@@ -279,11 +292,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6445b30a4dcab474",
+  "active": "449c1adb1ea05426",
   "lastOpenFiles": [
+    "Personal/yalat/IMPORTANT.md",
+    "Personal/yalat/Info.md",
+    "00 Dashboard.md",
+    "Personal/yalat",
     "First Plugin.md",
     "How To.md",
-    "00 Dashboard.md",
     "Home.md",
     "Untitled.md",
     "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026-08-28.md",
@@ -308,8 +324,6 @@
     "Habits/Pray on time.md",
     "Habits/Morning Coffe.md",
     "Habits/B Positive.md",
-    "Work/FieldPro/01 Dev Cabinet/01 Weekly Reports/2026/Sept/sep-w2.md",
-    "Work/FieldPro/01 Dev Cabinet/02 Monthly Reviews/2026/Aug-2026.md",
     "Work/FieldPro/01 Dev Cabinet/02 Monthly Reviews/2026",
     "Work/FieldPro/01 Dev Cabinet/01 Weekly Reports/2026/Sept/Sep-w1",
     "Work/FieldPro/01 Dev Cabinet/01 Weekly Reports/2026/Sept",
@@ -318,7 +332,6 @@
     "Images/Pasted image 20260828100953.png",
     "Images/Pasted image 20260828110333.png",
     "Images/Pasted image 20260828110217.png",
-    "Habits",
-    "Dashboards"
+    "Habits"
   ]
 }
