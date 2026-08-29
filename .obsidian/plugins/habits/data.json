@@ -1,0 +1,42 @@
+{
+  "habitsFolder": "Habits",
+  "dashboardLayout": "grid",
+  "cardsPerView": 4,
+  "sortMode": "name",
+  "manualOrder": [],
+  "statusOrdering": true,
+  "groupsEnabled": true,
+  "tableGrouping": true,
+  "groups": {
+    "Work": {
+      "color": "var(--color-yellow)",
+      "icon": "💻"
+    },
+    "Sprit": {
+      "color": "var(--color-blue)",
+      "icon": "lucide-flag-triangle-right"
+    }
+  },
+  "groupOrder": [],
+  "mobileCardsPerView": 2,
+  "followDailyNoteDate": true,
+  "dailyNoteDateFormat": "YYYY-MM-DD",
+  "enableComments": true,
+  "animations": true,
+  "statsRowsPerPage": 4,
+  "experimental": {
+    "limitHabits": true,
+    "aiSummaries": true,
+    "noteHabits": true
+  },
+  "aiSummary": {
+    "baseUrl": "https://api.openai.com/v1",
+    "apiKey": "",
+    "model": "gpt-4o-mini"
+  },
+  "reminders": {
+    "enabled": true,
+    "target": "daily-note",
+    "notePath": "Habit reminders.md"
+  }
+}

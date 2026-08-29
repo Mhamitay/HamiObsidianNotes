@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "03ab446ab0e0a237",
+        "id": "5ae696a0f4ec0772",
         "type": "tabs",
         "children": [
           {
-            "id": "33667dd80c99ff5d",
+            "id": "6445b30a4dcab474",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work/FieldPro/00 Dashboard/01 Home.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "01 Home"
+              "type": "keep-cards-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Card view"
             }
           }
         ]
@@ -43,7 +29,7 @@
       {
         "id": "1eb4c5e383bd7e4d",
         "type": "tabs",
-        "dimension": 66.57004830917874,
+        "dimension": 74.54194792671167,
         "children": [
           {
             "id": "38a1104824dac9b6",
@@ -95,7 +81,7 @@
       {
         "id": "938340e334363783",
         "type": "tabs",
-        "dimension": 33.429951690821255,
+        "dimension": 25.458052073288336,
         "children": [
           {
             "id": "33f2bc78e0eafb10",
@@ -111,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 433.5
+    "width": 336.5,
+    "collapsed": true
   },
   "right": {
     "id": "d3ba819d5ee0683b",
@@ -120,7 +107,7 @@
       {
         "id": "63e827a4f05afadf",
         "type": "tabs",
-        "dimension": 43.46617238183504,
+        "dimension": 39.6854764107308,
         "children": [
           {
             "id": "0d2de93a4dadfec8",
@@ -147,8 +134,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/FieldPro/00 Dashboard/01 Home.md",
-                "linksCollapsed": false,
+                "file": "Work/FieldPro/09 How To/Add devedpress license.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
@@ -190,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/FieldPro/04 Lessons Learned/Bugs Fixed/Null Reference on Cancelled Work Orders.md",
+                "file": "Work/FieldPro/09 How To/Add devedpress license.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -198,14 +185,44 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "7eaa194d5685b9a9",
+            "type": "leaf",
+            "state": {
+              "type": "gemini-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Gemini"
+            }
+          },
+          {
+            "id": "3769fd5fdc79001a",
+            "type": "leaf",
+            "state": {
+              "type": "dashboard-view",
+              "state": {},
+              "icon": "bar-chart",
+              "title": "Daily note dashboard"
+            }
+          },
+          {
+            "id": "2dec212d494845a5",
+            "type": "leaf",
+            "state": {
+              "type": "habits-panel",
+              "state": {},
+              "icon": "list-checks",
+              "title": "Habits"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       },
       {
         "id": "a67806d1928efdbb",
         "type": "tabs",
-        "dimension": 25.11584800741427,
+        "dimension": 29.047178538390376,
         "children": [
           {
             "id": "963dba7bd66ff036",
@@ -222,7 +239,7 @@
       {
         "id": "1eee5bcd103cc576",
         "type": "tabs",
-        "dimension": 31.417979610750695,
+        "dimension": 31.267345050878813,
         "children": [
           {
             "id": "c64f450b8df975a0",
@@ -238,7 +255,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5
+    "width": 370.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,45 +268,57 @@
       "bases:Create new base": false,
       "graph:Open graph view": false,
       "agent-client:Open agent client": false,
-      "pomodoro-timer:Toggle timer panel": false
+      "pomodoro-timer:Toggle timer panel": false,
+      "notekeeper:Open card view": false,
+      "gemini-helper:Open chat": false,
+      "note-metrics:Daily note dashboard": false,
+      "habits:Open habits panel": false,
+      "dashboard-hub:Open dashboard hub": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "33667dd80c99ff5d",
+  "active": "6445b30a4dcab474",
   "lastOpenFiles": [
-    "Work/FieldPro/00 Dashboard/00 Index.base",
-    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-26.md",
-    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026-08-27.md",
-    "Work/FieldPro/00 Dashboard/01 Home.md",
-    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-18.md",
-    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-25.md",
-    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-20.md",
-    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-17.md",
-    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-07-29.md",
+    "First Plugin.md",
+    "How To.md",
+    "00 Dashboard.md",
+    "Home.md",
+    "Untitled.md",
+    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026-08-28.md",
+    "Work/FieldPro/01 Dev Cabinet/01 Weekly Reports/2026/Sept/sep-w1.md",
     "Work/FieldPro/04 Lessons Learned/Bugs Fixed/Null Reference on Cancelled Work Orders.md",
-    "Work/FieldPro/00 Dashboard/Current Priorities.md",
-    "Work/FieldPro/09 How To/Add a country.md",
+    "Work/FieldPro/04 Lessons Learned/Bugs Fixed/Rounding Errors in Tax Calculation.md",
+    "Work/FieldPro/04 Lessons Learned/Bugs Fixed/Timezone Bugs in Scheduling.md",
+    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026-08-27.md",
+    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes/2026-08-29.md",
+    "Excalidraw/Drawing 2026-08-28 17.19.38.excalidraw.md",
+    "Excalidraw",
     "Work/FieldPro/00 Dashboard/Open Bugs.md",
-    "Personal/Untitled.md",
+    "Work/FieldPro/00 Dashboard/Current Priorities.md",
     "Work/FieldPro/00 Dashboard/01 Quick Links.md",
-    "05 Communication/ThankYou-GoodWork.md",
-    "05 Communication/PR Comments.md",
-    "wi-3970.md",
-    "05 Communication/PR Comments/Good PR Comment Examples.md",
-    "00 Dashboard/01 Home.md",
-    "Useful Scripts/04 Lessons Learned.md",
-    "Sprint 31 Goals.md",
-    "02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/maintenancePart1.md",
-    "2026-07-27.md",
-    "01 Dev Cabinet/00 Daily Notes/2026-08-27.md",
-    "00 Dashboard/00 Index.base",
-    "01 Dev Cabinet/01 Weekly Reports/Template.md",
-    "02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1",
-    "02 Sprints/Current Sprint/00 2026",
-    "01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 4",
-    "01 Dev Cabinet/00 Daily Notes/2027",
-    "01 Dev Cabinet/00 Daily Notes/2026",
-    "01 Dev Cabinet/00 Daily Notes/2026/Aug26",
-    "01 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3",
-    "02 Sprints/Archive"
+    "Work/FieldPro/00 Dashboard/00 Index.base",
+    "Work/FieldPro/08 Templates/Lesson Learned.md",
+    "Work/FieldPro/wi-3970.md",
+    "Work/FieldPro/08 Templates/Daily Note.md",
+    "Images/Welcome.md",
+    "Images",
+    "Habits/Prepare for Standup.md",
+    "Habits/Pray on time.md",
+    "Habits/Morning Coffe.md",
+    "Habits/B Positive.md",
+    "Work/FieldPro/01 Dev Cabinet/01 Weekly Reports/2026/Sept/sep-w2.md",
+    "Work/FieldPro/01 Dev Cabinet/02 Monthly Reviews/2026/Aug-2026.md",
+    "Work/FieldPro/01 Dev Cabinet/02 Monthly Reviews/2026",
+    "Work/FieldPro/01 Dev Cabinet/01 Weekly Reports/2026/Sept/Sep-w1",
+    "Work/FieldPro/01 Dev Cabinet/01 Weekly Reports/2026/Sept",
+    "Work/FieldPro/01 Dev Cabinet/01 Weekly Reports/2026",
+    "Dashboards/Dashboard.dashboard",
+    "Images/Pasted image 20260828100953.png",
+    "Images/Pasted image 20260828110333.png",
+    "Images/Pasted image 20260828110217.png",
+    "Habits",
+    "Dashboards"
   ]
 }

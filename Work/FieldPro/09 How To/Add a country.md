@@ -79,15 +79,15 @@ PRINT 'Country - Paraguay added successfully';
 
 Before running the script, verify:
 
-- [ ]  The correct `CountryID` is being used.
-- [ ]  `FieldProID` was used when available.
-- [ ]  The country code is correct.
-- [ ]  All applicable states/provinces are included.
-- [ ]  State/province IDs match the source files.
-- [ ]  State/province codes match the source files.
-- [ ]  State/province names match the source files.
-- [ ]  Entries marked `non state` have been reviewed.
-- [ ]  The final success message uses the correct country name.
+- [x] The correct `CountryID` is being used. ✅ 2026-08-28
+- [x] `FieldProID` was used when available. ✅ 2026-08-28
+- [x] The country code is correct. ✅ 2026-08-28
+- [x] All applicable states/provinces are included. ✅ 2026-08-28
+- [x] State/province IDs match the source files. ✅ 2026-08-28
+- [x] State/province codes match the source files. ✅ 2026-08-28
+- [x] State/province names match the source files. ✅ 2026-08-28
+- [x] Entries marked `non state` have been reviewed. ✅ 2026-08-28
+- [x] The final success message uses the correct country name. ✅ 2026-08-28
 
 #HowTo/SQL
 [[Entity Framework Migrations Workflow]]

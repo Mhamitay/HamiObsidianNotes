@@ -16,7 +16,7 @@ status: completed
 
 ## Action items
 - [x] Always run backfill migrations against a prod-sized data snapshot before staging, not just local dev data
-- [ ] Add a "complexity spike" step to estimation for any task touching financial calculations
+- [x] Add a "complexity spike" step to estimation for any task touching financial calculations ✅ 2026-08-28
 - [x] Document the outbox pattern for the team — done, see [[Why We Chose the Outbox Pattern]]
 
 ## Related

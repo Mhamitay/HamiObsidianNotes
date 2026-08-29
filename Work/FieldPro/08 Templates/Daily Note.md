@@ -2,20 +2,75 @@
 tags: [daily]
 date: {{date}}
 ---
+# 📅 {{date}}
 
-# {{date}}
+## 🎯 Habits
 
-## Yesterday
--
+```habits
+```
 
-## Today
--
+---
 
-## Blockers
--
+## 🔄 Carried Over
 
-## Lessons Learned
--
+> Unfinished tasks from previous daily notes.
 
-## Notes
--
+```tasks
+not done
+path includes Daily
+heading includes Today
+```
+
+---
+
+## 📝 Yesterday
+
+- 
+
+---
+
+## 🎯 Today
+
+- [ ] 
+
+---
+
+## 🚧 Blockers
+
+- None
+
+---
+
+## 💡 Lessons Learned
+
+- 
+
+---
+
+## 📝 Notes
+
+- 
+
+---
+
+## 📦 Work Items
+
+- 
+
+---
+
+## 📊 End-of-Day Summary
+
+**Status:** 🟡 In Progress
+
+### Completed
+
+- 
+
+### Still in Progress
+
+- 
+
+### Blockers
+
+- None

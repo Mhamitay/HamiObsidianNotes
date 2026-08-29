@@ -10,6 +10,7 @@
     "highTextContrast": false
   },
   "knownTags": {
+    "active": 36,
     "architecture": 1,
     "bash": 2,
     "bug": 3,
@@ -17,6 +18,7 @@
     "csharp": 5,
     "daily": 6,
     "decision-record": 7,
+    "devexpress": 33,
     "entity-framework": 8,
     "fieldpro": 9,
     "howto": 10,
@@ -30,6 +32,7 @@
     "powershell": 18,
     "pr-comments": 19,
     "reference": 20,
+    "remember": 35,
     "retrospective": 21,
     "snippet": 22,
     "sprint": 23,
@@ -40,7 +43,9 @@
     "weekly": 28,
     "weekly-report": 29,
     "wi-3970": 30,
+    "wi4234": 34,
     "y2026": 31,
+    "howto/config": 2,
     "howto/sql": 1
   },
   "tagColors": {},

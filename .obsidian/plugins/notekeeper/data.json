@@ -1,0 +1,39 @@
+{
+  "notesFolder": "",
+  "previewLines": 10,
+  "density": "wall",
+  "colorAsBorder": false,
+  "tagColors": {},
+  "cardColors": {
+    "First Plugin.md": "#635d19"
+  },
+  "pinnedFiles": {},
+  "archivedFiles": {},
+  "pinnedHeader": true,
+  "showImages": true,
+  "autoCollapseSidebars": true,
+  "sortMode": "mtime-desc",
+  "walls": {
+    "wmtdlqq1v4xrm": {
+      "id": "wmtdlqq1v4xrm",
+      "name": "Wall",
+      "positions": {
+        "00 Dashboard.md": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "z": 0
+        },
+        "First Plugin.md": {
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "z": 0
+        }
+      }
+    }
+  },
+  "currentWallId": "wmtdlqq1v4xrm",
+  "wallBackground": "theme",
+  "wallFlat": false
+}

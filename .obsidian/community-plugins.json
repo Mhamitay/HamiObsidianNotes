@@ -12,5 +12,17 @@
   "progressbar",
   "pomodoro-timer",
   "file-explorer-plus",
-  "ninja-cursor"
+  "ninja-cursor",
+  "notekeeper",
+  "gemini-helper",
+  "note-metrics",
+  "habits",
+  "dashboard-hub",
+  "datadeck",
+  "templater-obsidian",
+  "quickadd",
+  "obsidian-excalidraw-plugin",
+  "embedded-omnisearch",
+  "cmdr",
+  "omnisearch"
 ]
