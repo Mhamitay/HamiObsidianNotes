@@ -5,6 +5,7 @@ color: var(--color-yellow)
 startDate: 2026-08-28
 records:
   2026-08-28: 1
+  2026-08-31: 1
 ---
 # Get up on time
 

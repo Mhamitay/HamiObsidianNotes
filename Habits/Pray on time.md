@@ -5,6 +5,7 @@ color: var(--interactive-accent)
 startDate: 2026-08-28
 records:
   2026-08-28: 1
+  2026-08-31: 1
 weeklyPerfect: true
 monthlyPerfect: true
 group: Sprit
@@ -18,3 +19,7 @@ This note is managed by the Habits plugin.
 
 ```habit-metrics
 ```
+
+%%habits-log%%
+- **2026-08-31** — Morning 30 min late
+%%/habits-log%%
