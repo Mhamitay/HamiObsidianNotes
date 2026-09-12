@@ -13,7 +13,7 @@ type: dashboard
 | 📆 Monthly Reviews | [[01 Dev Cabinet/02 Monthly Reviews]]                       |
 | 🐛 Bugs Fixed      | [[04 Lessons Learned/Bugs Fixed]]                           |
 | 💡 Lessons Learned | [[04 Lessons Learned]]                                      |
-| 💬 PR Comments     | [[05 Communication/PR Comments]]                            |
+| 💬 PR Comments     | [[PR Comments]]                            |
 | 🔧 Snippets        | [[06 Snippets]]                                             |
 | 📖 Reference       | [[07 Reference/Cheat Sheets]]                               |
 | 🛠️ How To         | [[09 How To]]                                               |
