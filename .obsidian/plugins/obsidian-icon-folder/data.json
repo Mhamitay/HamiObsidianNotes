@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAlbum",
       "LiBug",
       "🐛"
     ],
@@ -30,5 +31,6 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "02 Work/FieldPro/002 Dev Cabinet/01 Weekly Reports/Template.md": "LiAlbum"
 }

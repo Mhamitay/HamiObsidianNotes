@@ -47,7 +47,7 @@ SORT file.mtime DESC
 TABLE WITHOUT ID
   file.link AS "Note",
   file.mtime AS "Last Updated"
-FROM "Work/FieldPro"
+FROM "02 Work/FieldPro"
 WHERE !contains(file.path, ".obsidian")
 SORT file.mtime DESC
 LIMIT 15
@@ -59,7 +59,7 @@ LIMIT 15
 ```dataview
 LIST WITHOUT ID
   file.link
-FROM "Work/FieldPro/01 Dev Cabinet/00 Daily Notes"
+FROM "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes"
 WHERE file.name = dateformat(date(today), "yyyy-MM-dd")
 LIMIT 1
 ```
@@ -68,7 +68,7 @@ LIMIT 1
 
 ```tasks
 not done
-path includes Work/FieldPro/01 Dev Cabinet/00 Daily Notes
+path includes 02 Work/FieldPro/001 Dev Cabinet/00 Daily Notes
 filename includes 2026-09-12
 sort by priority
 sort by due
@@ -77,7 +77,7 @@ sort by due
 ### 🔄 Carried Over 
 ```dataview
 TASK
-FROM "Work/FieldPro/01 Dev Cabinet/00 Daily Notes"
+FROM "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes"
 WHERE !completed
 AND file.name != dateformat(date(today), "yyyy-MM-dd")
 SORT priority ASC
@@ -87,7 +87,7 @@ SORT due ASC
 ```dataview
 LIST WITHOUT ID
   item.text
-FROM "Work/FieldPro/01 Dev Cabinet/00 Daily Notes"
+FROM "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes"
 FLATTEN file.lists AS item
 WHERE contains(item.tags, "#blocker")
   AND !item.completed
@@ -102,7 +102,7 @@ SORT file.day DESC
 TABLE WITHOUT ID
   file.link AS "Bug / Fix",
   file.mtime AS "Updated"
-FROM "Work/FieldPro/04 Lessons Learned/Bugs Fixed"
+FROM "02 Work/FieldPro/04 Lessons Learned/Bugs Fixed"
 SORT file.mtime DESC
 LIMIT 8
 ```
@@ -110,7 +110,7 @@ LIMIT 8
 ### 💡 Recent Lessons
 ```dataview
 LIST
-FROM "Work/FieldPro/04 Lessons Learned"
+FROM "02 Work/FieldPro/04 Lessons Learned"
 SORT file.mtime DESC
 LIMIT 8
 ```
@@ -120,13 +120,13 @@ LIMIT 8
 TABLE WITHOUT ID
   file.link AS "Bug / Fix",
   file.mtime AS "Updated"
-FROM "Work/FieldPro/04 Lessons Learned/How To"
+FROM "02 Work/FieldPro/04 Lessons Learned/How To"
 SORT file.mtime DESC
 LIMIT 8
 ```
 ```dataview
 LIST
-FROM "Work/FieldPro/04 Lessons Learned/Things I Dont Want to Forget"
+FROM "02 Work/FieldPro/04 Lessons Learned/Things I Dont Want to Forget"
 SORT file.mtime DESC
 LIMIT 8
 ```
@@ -188,13 +188,13 @@ LIMIT 8
 - 🔍 Log any bug fix that takes **more than 30 minutes** to root-cause.
 - 💡 Capture important lessons instead of relying on memory.
 - 💬 Save valuable PR review comments and communication examples.
-- 🧠 Add `#remember` to anything I need to see regularly.
+- 🧠 Add `# remember` to anything I need to see regularly.
 - 🗂️ Keep daily notes as the raw record; promote valuable information into the Knowledge Base.
 
 ---
 ## 📌 Tags
 
-- `#remember` — Something I want to keep visible.
+- `# remember` — Something I want to keep visible.
 - `#bug` — Bug-related information.
 - `#lesson` — Lesson learned.
 - `#architecture` — Architecture/design decisions.

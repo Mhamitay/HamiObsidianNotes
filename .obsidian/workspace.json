@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "369a5d7f15407178",
+        "id": "b2b3df85dc1c09e6",
         "type": "tabs",
         "children": [
           {
-            "id": "76cc62c9d9d63013",
+            "id": "5a35204027c240c8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Habits/Workout.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Workout"
+              "title": "New tab"
             }
           }
         ]
@@ -101,10 +87,24 @@
             "id": "33f2bc78e0eafb10",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "01 Personal/yalat/Info.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Info"
             }
           }
         ]
@@ -142,12 +142,25 @@
             }
           },
           {
+            "id": "6265848514304d9b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
             "id": "3a10047fde887efe",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/FieldPro/09 How To/Add devedpress license.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
@@ -185,28 +198,13 @@
             }
           },
           {
-            "id": "6265848514304d9b",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Work/FieldPro/09 How To/Add devedpress license.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
             "id": "7eaa194d5685b9a9",
             "type": "leaf",
             "state": {
               "type": "gemini-chat-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "gemini-chat-view"
+              "icon": "message-square",
+              "title": "Gemini"
             }
           },
           {
@@ -215,8 +213,8 @@
             "state": {
               "type": "dashboard-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "dashboard-view"
+              "icon": "bar-chart",
+              "title": "Daily note dashboard"
             }
           },
           {
@@ -238,9 +236,39 @@
               "icon": "message-square",
               "title": "Gemini"
             }
+          },
+          {
+            "id": "b55cf66da210a9a4",
+            "type": "leaf",
+            "state": {
+              "type": "agent-client-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "New session"
+            }
+          },
+          {
+            "id": "0e04c4a398b46bbf",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-agent-chat-view",
+              "state": {},
+              "icon": "copilot-agent",
+              "title": "Copilot Agent"
+            }
+          },
+          {
+            "id": "381107008e105959",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 11
       },
       {
         "id": "a67806d1928efdbb",
@@ -278,7 +306,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 483.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -298,47 +326,50 @@
       "dashboard-hub:Open dashboard hub": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "copilot:Open Copilot Agent Chat": false,
+      "iconic:Open rulebook": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "76cc62c9d9d63013",
+  "active": "5a35204027c240c8",
   "lastOpenFiles": [
-    "Habits/Start on time.md",
-    "Habits/Pray on time.md",
-    "Habits/Morning Coffe.md",
-    "Habits/Healthy Eating.md",
-    "Habits/B Positive.md",
-    "01 Personal/01 Health/One_Month_Muscle_Strength_Mobility_Plan.md",
-    "01 Personal/01 Health",
-    "01 Personal/yalat/Info.md",
-    "01 Personal/yalat/IMPORTANT.md",
-    "01 Dev Cabinet/01 Weekly Reports.md",
-    "01 Dev Cabinet/00 Daily Notes.md",
-    "02 Work/FieldPro/00 Knowledge Base/01 - Architecture/System Architecture.md",
-    "02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1.md",
-    "02 Work/FieldPro/00 Knowledge Base/01 - Architecture/Offline PWA Architecture.md",
-    "02 Work/FieldPro/00 Knowledge Base/01 - Architecture/Multi-Tenancy.md",
-    "02 Work/FieldPro/00 Knowledge Base/01 - Architecture/Data Access Pattern.md",
-    "02 Work/FieldPro/00 Knowledge Base/00 - Home/System Overview.md",
-    "02 Work/FieldPro/00 Knowledge Base/00 - Home/Knowledge Base Index.md",
+    "Untitled 1.md",
     "02 Work/FieldPro/001 Dashboard/00 FieldPro_Command_Center_v3.md",
-    "02 Work/FieldPro/00 Knowledge Base/04 - Frontend/Vue Components.md",
-    "02 Work/FieldPro/00 Knowledge Base/04 - Frontend/Frontend Overview.md",
-    "02 Work/FieldPro/00 Knowledge Base/04 - Frontend/Offline Sync.md",
-    "02 Work/FieldPro/00 Knowledge Base/04 - Frontend/API Client Layer.md",
-    "02 Work/FieldPro/00 Knowledge Base/04 - Frontend",
-    "02 Work/FieldPro/00 Knowledge Base/03 - Backend/ServicesConfig.md",
-    "02 Work/FieldPro/00 Knowledge Base/03 - Backend/DataDbContext.md",
-    "02 Work/FieldPro/00 Knowledge Base/03 - Backend/Domain Classes.md",
-    "02 Work/FieldPro/00 Knowledge Base/03 - Backend/Background Services.md",
-    "02 Work/FieldPro/00 Knowledge Base/03 - Backend",
-    "02 Work/FieldPro/00 Knowledge Base/02 - Applications",
-    "02 Work/FieldPro/00 Knowledge Base/01 - Architecture",
-    "02 Work/FieldPro/00 Knowledge Base/00 - Home",
-    "02 Work/FieldPro/00 Knowledge Base/05 - Database",
-    "02 Work/FieldPro/00 Knowledge Base",
-    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W1-2",
+    "02 Work/FieldPro/001 Dashboard/01 Quick Links.md",
     "02 Work/FieldPro/001 Dashboard/00 Index.base",
+    "02 Work/FieldPro/wi-3970.md",
+    "Dashboards/Bases/New Base.base",
+    "Obsidian_Markdown_Reference(1).md",
+    "Dashboards/Dashboard1.dashboard",
+    "Obsidian_Markdown_Style_Gallery.md",
+    "Untitled.base",
+    "Untitled.md",
+    "Webhook Design for Third-Party Integrations.md",
+    "01 Personal/yalat/Info.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-18.md",
+    "Excalidraw/Drawing 2026-09-18 09.35.25.excalidraw.md",
+    "Excalidraw",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-16.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-15.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-14.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-17.md",
+    "02 Work/FieldPro/002 Dev Cabinet/01 Weekly Reports/Template.md",
+    "02 Work/FieldPro/002 Dev Cabinet/02 Monthly Reviews/2026/Aug-2026.md",
+    "02 Work/FieldPro/02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Technical Decisions.md",
+    "02 Work/FieldPro/02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Tasks.md",
+    "02 Work/FieldPro/02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Meetings.md",
+    "02 Work/FieldPro/02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/maintenancePart1.md",
+    "02 Work/FieldPro/02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Goals.md",
+    "02 Work/FieldPro/02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Bugs.md",
+    "02 Work/FieldPro/04 Lessons Learned/Bugs Fixed/Timezone Bugs in Scheduling.md",
+    "02 Work/FieldPro/04 Lessons Learned/Bugs Fixed/Rounding Errors in Tax Calculation.md",
+    "02 Work/FieldPro/04 Lessons Learned/Bugs Fixed/Null Reference on Cancelled Work Orders.md",
+    "Dashboards/Bases",
+    "Dashboards",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3",
+    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes",
+    "Work/FieldPro/01 Dev Cabinet",
     "1000 Images/Pasted image 20260828100953.png",
     "1000 Images/Pasted image 20260828110333.png",
     "1000 Images/Pasted image 20260828110217.png"

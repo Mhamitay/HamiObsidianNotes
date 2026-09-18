@@ -1,0 +1,13 @@
+views:
+  - type: cards
+    name: New Base
+    order:
+      - file.mtime
+      - file.backlinks
+      - file.name
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 50
+  - type: list
+    name: View
