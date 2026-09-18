@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b2b3df85dc1c09e6",
+        "id": "1824723bea89e06b",
         "type": "tabs",
         "children": [
           {
-            "id": "5a35204027c240c8",
+            "id": "957ddda8ff2ab809",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Untitled.md",
+                "bFile": "Untitled.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Untitled  (Working Tree)"
             }
           }
         ]
@@ -332,8 +336,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5a35204027c240c8",
+  "active": "957ddda8ff2ab809",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Untitled.base",
     "Untitled 1.md",
     "02 Work/FieldPro/001 Dashboard/00 FieldPro_Command_Center_v3.md",
     "02 Work/FieldPro/001 Dashboard/01 Quick Links.md",
@@ -343,8 +349,6 @@
     "Obsidian_Markdown_Reference(1).md",
     "Dashboards/Dashboard1.dashboard",
     "Obsidian_Markdown_Style_Gallery.md",
-    "Untitled.base",
-    "Untitled.md",
     "Webhook Design for Third-Party Integrations.md",
     "01 Personal/yalat/Info.md",
     "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-18.md",
@@ -364,7 +368,6 @@
     "02 Work/FieldPro/02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Bugs.md",
     "02 Work/FieldPro/04 Lessons Learned/Bugs Fixed/Timezone Bugs in Scheduling.md",
     "02 Work/FieldPro/04 Lessons Learned/Bugs Fixed/Rounding Errors in Tax Calculation.md",
-    "02 Work/FieldPro/04 Lessons Learned/Bugs Fixed/Null Reference on Cancelled Work Orders.md",
     "Dashboards/Bases",
     "Dashboards",
     "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3",
