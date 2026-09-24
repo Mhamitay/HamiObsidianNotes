@@ -1,0 +1,15 @@
+# Build artifacts / dependencies (e.g. reactweb)
+node_modules/
+dist/
+dist-ssr/
+
+# Logs
+*.log
+
+# Env / secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db

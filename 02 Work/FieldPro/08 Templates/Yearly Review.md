@@ -1,31 +1,31 @@
 ---
-tags: [weekly-report]
-period: {{date:GGGG}}-W{{date:ww}}
+tags: [yearly-review]
+period: {{date:YYYY}}
 ---
 
-# 🗓️ Weekly Report
+# 🗓️ Yearly Review
 
-## 📌 Summary
+## 🏆 Year Highlights
 -
 
 ## 🚀 Wins
-> Anything extra beyond what's auto-collected below (shipped, praise, unblocked, etc.)
+> Anything extra beyond what's auto-collected below
 -
 
-## 🔄 In Progress
+## 🚧 Challenges
 -
 
-## ⚠️ Risks / Blockers
+## 📚 Skills Growth
 -
 
-## 🎯 Next Week
+## 🎯 Goals for Next Year
 -
 
 ---
 
 ## 📊 Auto-collected from daily notes
 
-> Pulls completed tasks, work items, lessons, and #win lines from your daily notes for this week.
+> Pulls completed tasks, work items, lessons, and #win lines from your daily notes for this year.
 
 ```dataviewjs
 const DAILY_NOTES = "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes";
@@ -49,9 +49,9 @@ if ((m = period.match(/^(\d{4})-W(\d{2})$/))) {
   end = start.clone().add(1, "year");
   label = m[1];
 } else {
-  start = today.clone().startOf("isoWeek");
-  end = start.clone().add(1, "week");
-  label = start.format("MMM D") + " – " + end.clone().subtract(1, "day").format("MMM D, YYYY");
+  start = today.clone().startOf("year");
+  end = start.clone().add(1, "year");
+  label = start.format("YYYY");
 }
 
 const pages = dv.pages(`"${DAILY_NOTES}"`)
@@ -86,7 +86,7 @@ const wins = [];
 const work = [];
 const impacts = [];
 for (const p of periodPages) {
-  const dstr = dateOf(p).format("ddd, MMM D");
+  const dstr = dateOf(p).format("MMM D");
   for (const i of allItems(p)) {
     if (!i) continue;
     const sec = secOf(i);
@@ -107,16 +107,31 @@ for (const p of periodPages) {
   }
 }
 
+const months = periodPages.reduce((acc, p) => {
+  const k = dateOf(p).format("MMM YYYY");
+  acc[k] = (acc[k] || 0) + 1;
+  return acc;
+}, {});
+
 dv.paragraph(`**Collected period:** ${label} · ${periodPages.length} active days`);
+
+if (Object.keys(months).length) {
+  dv.header(3, "🗓️ Activity by Month");
+  const total = periodPages.length;
+  for (const [k, v] of Object.entries(months)) {
+    const bar = "█".repeat(Math.max(1, Math.round((v / Math.max(...Object.values(months))) * 20)));
+    dv.listItem(`${k} · ${v} day${v === 1 ? "" : "s"} ${bar}`);
+  }
+}
 
 if (impacts.length) {
   dv.header(3, "💡 Highlights");
-  for (const im of impacts.slice(0, 12)) dv.listItem(`✨ **${im.d}** — ${im.t} <br><small>${im.l}</small>`);
+  for (const im of impacts.slice(0, 30)) dv.listItem(`✨ **${im.d}** — ${im.t} <br><small>${im.l}</small>`);
 }
 
 if (wins.length) {
   dv.header(3, "🏆 Wins");
-  for (const w of wins.slice(0, 40)) dv.listItem(`**${w.d}** — ${w.t} <br><small>${w.l}</small>`);
+  for (const w of wins.slice(0, 100)) dv.listItem(`**${w.d}** — ${w.t} <br><small>${w.l}</small>`);
 }
 
 if (work.length) {
