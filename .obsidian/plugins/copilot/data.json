@@ -318,7 +318,7 @@
   "inlineEditCommands": [],
   "projectList": [],
   "lastDismissedVersion": null,
-  "lastShownStartupVersion": null,
+  "lastShownStartupVersion": "4.0.11",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
@@ -402,7 +402,7 @@
         "displayName": "Kimi K2.6",
         "description": "Good for long-running reasoning tasks.",
         "toolCall": true,
-        "reasoning": false,
+        "reasoning": true,
         "reasoningEfforts": [],
         "modalities": {
           "input": [

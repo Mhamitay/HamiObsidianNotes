@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "1824723bea89e06b",
+        "id": "f77f1d37bf546da8",
         "type": "tabs",
         "children": [
           {
-            "id": "957ddda8ff2ab809",
+            "id": "91b58ba0492bbb42",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Untitled.md",
-                "bFile": "Untitled.md",
-                "aRef": ""
+                "file": "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W4/2026-09-24.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: Untitled  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "2026-09-24"
             }
           }
         ]
@@ -56,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "insur",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -151,6 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-18.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,6 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-18.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
@@ -310,7 +322,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 483.5
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -336,43 +348,51 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "957ddda8ff2ab809",
+  "active": "91b58ba0492bbb42",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Untitled.base",
-    "Untitled 1.md",
-    "02 Work/FieldPro/001 Dashboard/00 FieldPro_Command_Center_v3.md",
-    "02 Work/FieldPro/001 Dashboard/01 Quick Links.md",
-    "02 Work/FieldPro/001 Dashboard/00 Index.base",
-    "02 Work/FieldPro/wi-3970.md",
-    "Dashboards/Bases/New Base.base",
-    "Obsidian_Markdown_Reference(1).md",
-    "Dashboards/Dashboard1.dashboard",
-    "Obsidian_Markdown_Style_Gallery.md",
-    "Webhook Design for Third-Party Integrations.md",
     "01 Personal/yalat/Info.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W4/2026-09-24.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W4/2026-09-21.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W4/2026-09-23.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-18.md",
+    "02 Work/FieldPro/001 Dashboard/00 FieldPro_Command_Center_v3.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/Index.md",
+    "02 Work/FieldPro/04 Lessons Learned/How To/Add a country.md",
+    "02 Work/FieldPro/08 Templates/Daily Note (Dev).md",
+    "reactweb/dist/assets/index-B3OmVl75.css",
+    "reactweb/dist/assets/index-DKA9_2Ih.js",
+    "reactweb/dist/index.html",
+    "reactweb/dist/assets/index-DGQtOJa7.js",
+    "reactweb/dist/assets/index-C7YhajLu.css",
+    "reactweb/dist/assets",
+    "reactweb/node_modules/lightningcss-win32-x64-msvc/package.json",
+    "reactweb/dist/icons.svg",
+    "reactweb/dist/favicon.svg",
+    "reactweb/dist",
+    "reactweb/node_modules/scheduler/index.js",
+    "reactweb/node_modules/react-dom/index.js",
     "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-18.md",
-    "Excalidraw/Drawing 2026-09-18 09.35.25.excalidraw.md",
-    "Excalidraw",
-    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-16.md",
-    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-15.md",
-    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-14.md",
     "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-17.md",
-    "02 Work/FieldPro/002 Dev Cabinet/01 Weekly Reports/Template.md",
-    "02 Work/FieldPro/002 Dev Cabinet/02 Monthly Reviews/2026/Aug-2026.md",
-    "02 Work/FieldPro/02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Technical Decisions.md",
-    "02 Work/FieldPro/02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Tasks.md",
-    "02 Work/FieldPro/02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Meetings.md",
-    "02 Work/FieldPro/02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/maintenancePart1.md",
-    "02 Work/FieldPro/02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Goals.md",
-    "02 Work/FieldPro/02 Sprints/Current Sprint/00 2026/01 Maintenance Part 1/Bugs.md",
-    "02 Work/FieldPro/04 Lessons Learned/Bugs Fixed/Timezone Bugs in Scheduling.md",
-    "02 Work/FieldPro/04 Lessons Learned/Bugs Fixed/Rounding Errors in Tax Calculation.md",
-    "Dashboards/Bases",
-    "Dashboards",
-    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3",
-    "Work/FieldPro/01 Dev Cabinet/00 Daily Notes",
-    "Work/FieldPro/01 Dev Cabinet",
+    "reactweb/node_modules/@types/react/README.md",
+    "reactweb/node_modules/vite/README.md",
+    "reactweb/node_modules/lightningcss/README.md",
+    "reactweb/node_modules/lightningcss-win32-x64-msvc/README.md",
+    "reactweb/node_modules/source-map-js/README.md",
+    "reactweb/node_modules/tinyglobby/README.md",
+    "reactweb/src/assets/react.svg",
+    "reactweb/src/assets/hero.png",
+    "reactweb/src/assets/vite.svg",
+    "reactweb/README.md",
+    "reactweb/public/icons.svg",
+    "reactweb/public/favicon.svg",
+    "02 Work/FieldPro/001 Dashboard/01 Quick Links.md",
+    "02 Work/FieldPro/001 Dashboard/Untitled.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-14.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-15.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "02 Work/FieldPro/wi-3970.md",
+    "Obsidian_Markdown_Reference(1).md",
     "1000 Images/Pasted image 20260828100953.png",
     "1000 Images/Pasted image 20260828110333.png",
     "1000 Images/Pasted image 20260828110217.png"
