@@ -5,7 +5,7 @@ type: dashboard
 
 # 🧪 Reports Hub (beta)
 
-> **Sandbox — experiment file.** Wins rules and Copy-as-Markdown still mirror the real hub. New in this pass: a progress-led **What I Worked On** view and a dated **Wins** timeline. The **📈 Charts** section (free *Charts* plugin — Chart.js) and **📅 Activity Calendar** (free *Tracker* plugin — month views) are also enabled; restart Obsidian once to load them, then open this note.
+> **Sandbox — experiment file.** All aggregation, wins rules, and Copy-as-Markdown are identical to the real hub. Two things are new: the **📈 Charts** section (free *Charts* plugin — Chart.js) and the **📅 Activity Calendar** (free *Tracker* plugin — month views). Both are installed; restart Obsidian once to load them, then open this note.
 
 ## 📅 Activity Calendar
 
@@ -44,18 +44,13 @@ if (!document.getElementById("reports-hub-beta-style")) {
   s.textContent = `
 .reports-hub .toolbar{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:12px 0;}
 .reports-hub .btn{padding:5px 12px;border-radius:8px;border:1px solid var(--background-modifier-border);background:var(--background-secondary);cursor:pointer;font-size:13px;}
-.reports-hub .btn:hover{border-color:var(--interactive-accent);}
 .reports-hub .btn.active{background:var(--interactive-accent);color:var(--text-on-accent);border-color:transparent;}
-.reports-hub .btn:focus-visible,.reports-hub .source-link:focus-visible{outline:2px solid var(--interactive-accent);outline-offset:2px;}
 .reports-hub .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:12px 0;}
 .reports-hub .card{padding:12px 14px;border-radius:10px;border:1px solid var(--background-modifier-border);background:var(--background-secondary);}
 .reports-hub .card .lbl{color:var(--text-muted);font-size:10px;font-weight:700;letter-spacing:.05em;}
-.reports-hub .card .val{font-size:22px;font-weight:800;font-variant-numeric:tabular-nums;}
+.reports-hub .card .val{font-size:22px;font-weight:800;}
 .reports-hub h3.rh{font-size:16px;margin:22px 0 8px;padding-bottom:4px;border-bottom:1px solid var(--background-modifier-border);}
-.reports-hub .rh-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-top:24px;padding-bottom:7px;border-bottom:1px solid var(--background-modifier-border);}
-.reports-hub .rh-heading h3.rh{margin:0;padding:0;border:0;}
-.reports-hub .rh-meta{color:var(--text-muted);font-size:12px;text-align:right;}
-.reports-hub .empty{color:var(--text-muted);font-style:italic;padding:12px 0;}
+.reports-hub .empty{color:var(--text-muted);font-style:italic;padding:4px 0;}
 .reports-hub .row{font-size:14px;line-height:1.5;padding:2px 0;}
 .reports-hub .src{color:var(--text-muted);font-size:12px;}
 .reports-hub .row.link{cursor:pointer;border-radius:6px;padding:3px 6px;margin:0 -6px;}
@@ -63,83 +58,11 @@ if (!document.getElementById("reports-hub-beta-style")) {
 .reports-hub .row.link .go{color:var(--text-accent);font-size:12px;}
 .reports-hub .row.link:hover .src{color:var(--text-normal);text-decoration:underline;}
 .reports-hub .note-ref{display:inline-flex;align-items:center;gap:4px;white-space:nowrap;}
-.reports-hub .work-ledger{display:grid;grid-template-columns:minmax(190px,1.4fr) repeat(3,minmax(68px,.45fr));align-items:center;gap:18px;padding:14px 0;border-bottom:1px solid var(--background-modifier-border);}
-.reports-hub .work-progress-label{display:flex;justify-content:space-between;gap:12px;margin-bottom:8px;font-size:12px;}
-.reports-hub .work-progress-label span{color:var(--text-muted);}
-.reports-hub .work-progress-label strong{font-variant-numeric:tabular-nums;}
-.reports-hub .work-track{height:7px;overflow:hidden;border-radius:999px;background:var(--background-modifier-border);}
-.reports-hub .work-track>span{display:block;height:100%;border-radius:inherit;background:var(--interactive-accent);}
-.reports-hub .work-metric{padding-left:14px;border-left:1px solid var(--background-modifier-border);}
-.reports-hub .work-metric strong{display:block;font-size:20px;line-height:1.1;font-variant-numeric:tabular-nums;}
-.reports-hub .work-metric span{display:block;margin-top:3px;color:var(--text-muted);font-size:11px;}
-.reports-hub .work-metric.done strong{color:#2ea56b;}
-.reports-hub .work-group{padding:14px 0 12px;border-bottom:1px solid var(--background-modifier-border);}
-.reports-hub .work-group-head{display:grid;grid-template-columns:minmax(150px,auto) minmax(90px,1fr) auto;align-items:center;gap:16px;margin-bottom:8px;}
-.reports-hub .work-group-title{font-size:13px;font-weight:750;}
-.reports-hub .work-group-title span{color:var(--text-muted);font-weight:500;}
-.reports-hub .work-group-track{height:4px;overflow:hidden;border-radius:999px;background:var(--background-modifier-border);}
-.reports-hub .work-group-track>span{display:block;height:100%;border-radius:inherit;background:var(--interactive-accent);}
-.reports-hub .work-group-meta{color:var(--text-muted);font-size:11px;white-space:nowrap;font-variant-numeric:tabular-nums;}
-.reports-hub .work-items{display:grid;gap:3px;}
-.reports-hub .work-row{display:grid;grid-template-columns:18px 84px minmax(0,1fr) auto;align-items:start;gap:8px;padding:6px 8px;border-radius:6px;cursor:pointer;font-size:13px;line-height:1.45;}
-.reports-hub .work-row:hover{background:var(--background-modifier-hover);}
-.reports-hub .work-row .status{font-weight:800;text-align:center;}
-.reports-hub .work-row.done .status{color:#2ea56b;}
-.reports-hub .work-row.open .status{color:var(--text-muted);}
-.reports-hub .work-row.note .status{color:var(--text-faint);}
-.reports-hub .work-row .day{color:var(--text-muted);font-size:11px;padding-top:1px;white-space:nowrap;}
-.reports-hub .work-row .item-copy{min-width:0;overflow-wrap:anywhere;}
-.reports-hub .work-row .src{font-size:11px;}
-.reports-hub .win-ledger{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid var(--background-modifier-border);}
-.reports-hub .win-count{font-size:34px;font-weight:800;line-height:1;color:var(--text-accent);font-variant-numeric:tabular-nums;}
-.reports-hub .win-copy strong{display:block;margin-bottom:3px;}
-.reports-hub .win-copy span{color:var(--text-muted);font-size:12px;}
-.reports-hub .win-stats{display:flex;align-items:center;gap:18px;}
-.reports-hub .win-stat{padding-left:16px;border-left:1px solid var(--background-modifier-border);}
-.reports-hub .win-stat strong{display:block;font-size:18px;line-height:1.1;font-variant-numeric:tabular-nums;}
-.reports-hub .win-stat span{display:block;margin-top:3px;color:var(--text-muted);font-size:11px;}
-.reports-hub .win-timeline{position:relative;margin-top:14px;}
-.reports-hub .win-timeline::before{content:"";position:absolute;top:12px;bottom:12px;left:47px;width:1px;background:var(--background-modifier-border);}
-.reports-hub .win-day{position:relative;display:grid;grid-template-columns:44px minmax(0,1fr);gap:18px;padding-bottom:15px;}
-.reports-hub .win-date{position:relative;padding-top:1px;text-align:right;}
-.reports-hub .win-date .dow{display:block;color:var(--text-muted);font-size:10px;text-transform:uppercase;}
-.reports-hub .win-date .date{display:block;margin-top:2px;font-size:12px;font-weight:750;}
-.reports-hub .win-date::after{content:"";position:absolute;top:4px;left:calc(100% - 13.5px);width:9px;height:9px;border-radius:50%;background:#d7a93e;box-shadow:0 0 0 4px var(--background-primary);}
-.reports-hub .win-day-body{min-width:0;padding-top:5px;border-top:1px solid var(--background-modifier-border);}
-.reports-hub .win-day-title{display:flex;align-items:baseline;justify-content:space-between;gap:12px;font-size:12px;font-weight:700;}
-.reports-hub .win-day-title span{color:var(--text-muted);font-size:11px;font-weight:500;}
-.reports-hub .win-items{display:grid;gap:5px;margin-top:8px;}
-.reports-hub .win-item{display:grid;grid-template-columns:16px minmax(0,1fr) auto;align-items:start;gap:8px;padding:6px 8px;border-radius:6px;cursor:pointer;font-size:13px;line-height:1.45;}
-.reports-hub .win-item:hover{background:var(--background-modifier-hover);}
-.reports-hub .win-check{color:#2ea56b;font-weight:800;text-align:center;}
-.reports-hub .win-item .win-copy{min-width:0;overflow-wrap:anywhere;}
-.reports-hub .win-item .src{font-size:11px;}
-.reports-hub .win-overflow{margin-top:8px;color:var(--text-muted);font-size:12px;}
 .reports-hub .charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:10px;margin:12px 0;}
 .reports-hub .chbox{padding:12px 14px;border-radius:10px;border:1px solid var(--background-modifier-border);background:var(--background-secondary);}
 .reports-hub .chbox .cht{color:var(--text-muted);font-size:10px;font-weight:700;letter-spacing:.05em;margin-bottom:6px;}
 .reports-hub .chbox .ch{position:relative;height:210px;}
 .reports-hub .nocharts{padding:10px 12px;margin:12px 0;border:1px dashed var(--background-modifier-border);border-radius:10px;color:var(--text-muted);font-size:13px;}
-@media(max-width:640px){
-.reports-hub .rh-heading{align-items:flex-start;flex-direction:column;gap:4px;}
-.reports-hub .rh-meta{text-align:left;}
-.reports-hub .work-ledger{grid-template-columns:repeat(3,1fr);gap:12px;}
-.reports-hub .work-progress{grid-column:1/-1;}
-.reports-hub .work-metric{padding-left:10px;}
-.reports-hub .work-group-head{grid-template-columns:minmax(0,1fr) auto;gap:8px;}
-.reports-hub .work-group-track{grid-column:1/-1;grid-row:2;}
-.reports-hub .work-row{grid-template-columns:18px minmax(0,1fr) auto;}
-.reports-hub .work-row .day{grid-column:2;grid-row:1;}
-.reports-hub .work-row .item-copy{grid-column:2;grid-row:2;}
-.reports-hub .work-row .note-ref{grid-column:3;grid-row:1/3;}
-.reports-hub .win-ledger{grid-template-columns:auto minmax(0,1fr);}
-.reports-hub .win-stats{grid-column:1/-1;padding-top:10px;border-top:1px solid var(--background-modifier-border);}
-.reports-hub .win-stat:first-child{padding-left:0;border-left:0;}
-.reports-hub .win-timeline::before{left:39px;}
-.reports-hub .win-day{grid-template-columns:36px minmax(0,1fr);gap:14px;}
-.reports-hub .win-item{grid-template-columns:16px minmax(0,1fr);}
-.reports-hub .win-item .note-ref{grid-column:2;}
-}
 `;
   document.head.appendChild(s);
 }
@@ -181,10 +104,8 @@ function inPeriod(start, end, p) {
   return d.valueOf() >= start.valueOf() && d.valueOf() < end.valueOf();
 }
 
-const sectionItems = p => (p.file.lists || []).filter(i => {
-  const heading = i && i.section && i.section.subpath ? i.section.subpath.trim() : "";
-  return /\bToday(?:['’]s(?:\s+Tasks?)?|\s+Tasks?)?$/i.test(heading);
-});
+const sectionItems = p =>
+  (p.file.lists || []).filter(i => i && i.section && i.section.subpath && i.section.subpath.trim().endsWith("Today"));
 const allItems = p => (p.file.lists || []);
 const parseSec = i => (i.section && i.section.subpath || "").trim().toLowerCase();
 const isWinTask = i => {
@@ -241,8 +162,8 @@ function collect() {
             const key = dstr + text;
             if (!seen.has(key)) {
               seen.add(key);
-              doneTasks.push({ date: dstr, dateKey: dkey, text, link: p.file.link });
-              if (isWinTask(i)) wonTasks.push({ date: dstr, dateKey: dkey, text, link: p.file.link });
+              doneTasks.push({ date: dstr, text, link: p.file.link });
+              if (isWinTask(i)) wonTasks.push({ date: dstr, text, link: p.file.link });
             }
           }
         }
@@ -255,7 +176,7 @@ function collect() {
           impacts.push({ date: dstr, text: i.text.trim(), link: p.file.link });
         }
         if (i.text.toLowerCase().includes(WIN_TAG)) {
-          winLines.push({ date: dstr, dateKey: dkey, text: i.text, link: p.file.link });
+          winLines.push({ date: dstr, text: i.text, link: p.file.link });
         }
       }
     }
@@ -264,7 +185,7 @@ function collect() {
       const text = cleanText(i);
       if (text) {
         rec.items++;
-        work.push({ date: dstr, dateKey: dkey, text, ticket: workItemOf(text), task: i.task, done: i.completed, link: p.file.link });
+        work.push({ date: dstr, text, ticket: workItemOf(text), task: i.task, done: i.completed, link: p.file.link });
       }
     }
   }
@@ -459,275 +380,6 @@ function mkBox(title) {
   return { box, host };
 }
 
-function addSectionHeading(title, meta) {
-  const heading = document.createElement("div");
-  heading.className = "rh-heading";
-  const h = document.createElement("h3");
-  h.className = "rh";
-  h.textContent = title;
-  const summary = document.createElement("div");
-  summary.className = "rh-meta";
-  summary.textContent = meta;
-  heading.append(h, summary);
-  root.appendChild(heading);
-}
-
-function appendMetric(parent, value, label, className) {
-  const metric = document.createElement("div");
-  metric.className = "work-metric" + (className ? " " + className : "");
-  const number = document.createElement("strong");
-  number.textContent = value;
-  const caption = document.createElement("span");
-  caption.textContent = label;
-  metric.append(number, caption);
-  parent.appendChild(metric);
-}
-
-function groupWorkItems(work) {
-  const groups = new Map();
-  for (const item of work) {
-    const key = item.ticket || "General";
-    if (!groups.has(key)) groups.set(key, []);
-    groups.get(key).push(item);
-  }
-  return [...groups.entries()].sort(([a], [b]) => {
-    if (a === "General") return 1;
-    if (b === "General") return -1;
-    return Number(a) - Number(b);
-  });
-}
-
-function renderWorkSection(work) {
-  const groups = groupWorkItems(work);
-  const done = work.filter(item => item.task && item.done).length;
-  const open = work.filter(item => item.task && !item.done).length;
-  const notes = work.filter(item => !item.task).length;
-  const taskTotal = done + open;
-  const completion = taskTotal ? Math.round(done / taskTotal * 100) : 0;
-  const streamLabel = groups.length === 1 ? "workstream" : "workstreams";
-  addSectionHeading("💪 What I Worked On", work.length ? `${work.length} ${work.length === 1 ? "entry" : "entries"} · ${groups.length} ${streamLabel}` : "Nothing logged yet");
-
-  if (!work.length) {
-    const empty = document.createElement("div");
-    empty.className = "empty";
-    empty.textContent = "No work items recorded in this period. Add an item under Today in a daily note to see it here.";
-    root.appendChild(empty);
-    return;
-  }
-
-  const ledger = document.createElement("div");
-  ledger.className = "work-ledger";
-  const progress = document.createElement("div");
-  progress.className = "work-progress";
-  const progressLabel = document.createElement("div");
-  progressLabel.className = "work-progress-label";
-  const progressCaption = document.createElement("span");
-  progressCaption.textContent = taskTotal ? "Task completion" : "Notes captured";
-  const progressValue = document.createElement("strong");
-  progressValue.textContent = taskTotal ? `${completion}%` : String(notes);
-  progressLabel.append(progressCaption, progressValue);
-  const track = document.createElement("div");
-  track.className = "work-track";
-  const fill = document.createElement("span");
-  fill.style.width = (taskTotal ? completion : notes ? 100 : 0) + "%";
-  track.appendChild(fill);
-  progress.append(progressLabel, track);
-  ledger.appendChild(progress);
-  appendMetric(ledger, done, "done", "done");
-  appendMetric(ledger, open, "open");
-  appendMetric(ledger, notes, notes === 1 ? "note" : "notes");
-  root.appendChild(ledger);
-
-  for (const [ticket, items] of groups) {
-    const group = document.createElement("section");
-    group.className = "work-group";
-    const head = document.createElement("div");
-    head.className = "work-group-head";
-    const title = document.createElement("div");
-    title.className = "work-group-title";
-    title.append(document.createTextNode(ticket === "General" ? "General work" : `Work item #${ticket}`));
-    const count = document.createElement("span");
-    count.textContent = ` · ${items.length} ${items.length === 1 ? "entry" : "entries"}`;
-    title.appendChild(count);
-    const groupDone = items.filter(item => item.task && item.done).length;
-    const groupTasks = items.filter(item => item.task).length;
-    const groupCompletion = groupTasks ? Math.round(groupDone / groupTasks * 100) : 0;
-    const groupTrack = document.createElement("div");
-    groupTrack.className = "work-group-track";
-    const groupFill = document.createElement("span");
-    groupFill.style.width = (groupTasks ? groupCompletion : 0) + "%";
-    groupTrack.appendChild(groupFill);
-    const meta = document.createElement("div");
-    meta.className = "work-group-meta";
-    meta.textContent = groupTasks ? `${groupDone}/${groupTasks} tasks done` : `${items.length} ${items.length === 1 ? "note" : "notes"}`;
-    head.append(title, groupTrack, meta);
-    group.appendChild(head);
-
-    const list = document.createElement("div");
-    list.className = "work-items";
-    for (const item of items) {
-      const row = document.createElement("div");
-      const state = item.task ? (item.done ? "done" : "open") : "note";
-      row.className = "work-row " + state;
-      const status = document.createElement("span");
-      status.className = "status";
-      status.textContent = item.task ? (item.done ? "✓" : "○") : "–";
-      const day = document.createElement("span");
-      day.className = "day";
-      day.textContent = item.date;
-      const copy = document.createElement("span");
-      copy.className = "item-copy";
-      copy.textContent = item.text;
-      row.append(status, day, copy);
-      linkToNote(row, item.link, "Source note");
-      list.appendChild(row);
-    }
-    group.appendChild(list);
-    root.appendChild(group);
-  }
-}
-
-function cleanWinText(text) {
-  return String(text || "")
-    .replace(/\b#win\b/ig, "")
-    .replace(/^✅\s*/, "")
-    .replace(/^[-–—]\s*/, "")
-    .trim();
-}
-
-function collectWins(wonTasks, winLines) {
-  const seen = new Set();
-  return [
-    ...wonTasks.map(win => ({ ...win })),
-    ...winLines.map(win => ({ ...win }))
-  ].map(win => ({ ...win, text: cleanWinText(win.text) })).filter(win => {
-    if (!win.text) return false;
-    const key = `${win.dateKey || win.date}|${win.text.toLowerCase()}`;
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  }).sort((a, b) => String(b.dateKey || b.date).localeCompare(String(a.dateKey || a.date)));
-}
-
-function longestWinStreak(wins) {
-  const days = [...new Set(wins.map(win => win.dateKey).filter(Boolean))].sort();
-  let current = 0;
-  let best = 0;
-  let previous = null;
-  for (const day of days) {
-    current = previous && window.moment(day, "YYYY-MM-DD", true).diff(window.moment(previous, "YYYY-MM-DD", true), "day") === 1 ? current + 1 : 1;
-    best = Math.max(best, current);
-    previous = day;
-  }
-  return best;
-}
-
-function renderWinsSection(wonTasks, winLines) {
-  const wins = collectWins(wonTasks, winLines);
-  const dayCount = new Set(wins.map(win => win.dateKey).filter(Boolean)).size;
-  const streak = longestWinStreak(wins);
-  const winLabel = wins.length === 1 ? "win" : "wins";
-  addSectionHeading("🏆 Wins", wins.length ? `${wins.length} explicit ${winLabel} in this period` : "No explicit wins yet");
-
-  if (!wins.length) {
-    const empty = document.createElement("div");
-    empty.className = "empty";
-    empty.textContent = "No wins recorded in this period. Check off an item under Wins or tag a completed task with #win to build this timeline.";
-    root.appendChild(empty);
-    return;
-  }
-
-  const ledger = document.createElement("div");
-  ledger.className = "win-ledger";
-  const count = document.createElement("div");
-  count.className = "win-count";
-  count.textContent = wins.length;
-  const copy = document.createElement("div");
-  copy.className = "win-copy";
-  const copyTitle = document.createElement("strong");
-  copyTitle.textContent = `Explicit ${winLabel} captured`;
-  const copyMeta = document.createElement("span");
-  copyMeta.textContent = "Completed Wins entries and #win tasks only";
-  copy.append(copyTitle, copyMeta);
-  const stats = document.createElement("div");
-  stats.className = "win-stats";
-  const dayStat = document.createElement("div");
-  dayStat.className = "win-stat";
-  const dayValue = document.createElement("strong");
-  dayValue.textContent = dayCount;
-  const dayLabel = document.createElement("span");
-  dayLabel.textContent = dayCount === 1 ? "winning day" : "winning days";
-  dayStat.append(dayValue, dayLabel);
-  const streakStat = document.createElement("div");
-  streakStat.className = "win-stat";
-  const streakValue = document.createElement("strong");
-  streakValue.textContent = streak;
-  const streakLabel = document.createElement("span");
-  streakLabel.textContent = "best streak";
-  streakStat.append(streakValue, streakLabel);
-  stats.append(dayStat, streakStat);
-  ledger.append(count, copy, stats);
-  root.appendChild(ledger);
-
-  const visibleWins = wins.slice(0, 60);
-  const days = new Map();
-  for (const win of visibleWins) {
-    const key = win.dateKey || win.date;
-    if (!days.has(key)) days.set(key, []);
-    days.get(key).push(win);
-  }
-  const timeline = document.createElement("div");
-  timeline.className = "win-timeline";
-  for (const [dateKey, items] of days) {
-    const day = window.moment(dateKey, "YYYY-MM-DD", true);
-    const dayWrap = document.createElement("div");
-    dayWrap.className = "win-day";
-    const date = document.createElement("div");
-    date.className = "win-date";
-    const dow = document.createElement("span");
-    dow.className = "dow";
-    dow.textContent = day.isValid() ? day.format("ddd") : "Date";
-    const dateValue = document.createElement("span");
-    dateValue.className = "date";
-    dateValue.textContent = day.isValid() ? day.format("MMM D") : dateKey;
-    date.append(dow, dateValue);
-    const body = document.createElement("div");
-    body.className = "win-day-body";
-    const title = document.createElement("div");
-    title.className = "win-day-title";
-    const titleText = day.isValid() ? day.format("dddd, MMMM D, YYYY") : dateKey;
-    title.appendChild(document.createTextNode(titleText));
-    const count = document.createElement("span");
-    count.textContent = `${items.length} ${items.length === 1 ? "win" : "wins"}`;
-    title.appendChild(count);
-    const list = document.createElement("div");
-    list.className = "win-items";
-    for (const win of items) {
-      const item = document.createElement("div");
-      item.className = "win-item";
-      const check = document.createElement("span");
-      check.className = "win-check";
-      check.textContent = "✓";
-      const itemCopy = document.createElement("span");
-      itemCopy.className = "win-copy";
-      itemCopy.textContent = win.text;
-      item.append(check, itemCopy);
-      linkToNote(item, win.link, "Source note");
-      list.appendChild(item);
-    }
-    body.append(title, list);
-    dayWrap.append(date, body);
-    timeline.appendChild(dayWrap);
-  }
-  root.appendChild(timeline);
-  if (wins.length > visibleWins.length) {
-    const overflow = document.createElement("div");
-    overflow.className = "win-overflow";
-    overflow.textContent = `Showing the first ${visibleWins.length} of ${wins.length} wins.`;
-    root.appendChild(overflow);
-  }
-}
-
 // ---------- render ----------
 function render() {
   root.replaceChildren();
@@ -840,14 +492,66 @@ function render() {
     }
   }
 
-  renderWorkSection(work);
-  renderWinsSection(wonTasks, winLines);
+  // What I Worked On
+  const h1 = document.createElement("h3");
+  h1.className = "rh";
+  h1.textContent = "💪 What I Worked On";
+  root.appendChild(h1);
+
+  if (work.length === 0) {
+    const e = document.createElement("div");
+    e.className = "empty";
+    e.textContent = "No work items recorded in this period.";
+    root.appendChild(e);
+  } else {
+    const groups = new Map();
+    for (const w of work) {
+      const key = w.ticket || "General";
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(w);
+    }
+    for (const [ticket, items] of groups) {
+      const g = document.createElement("div");
+      g.style.fontWeight = "700";
+      g.style.fontSize = "13px";
+      g.style.margin = "10px 0 2px";
+      g.style.opacity = ".9";
+      g.textContent = ticket === "General" ? "🗂 General" : "🔖 #" + ticket + (items.length > 1 ? ` · ${items.length} items` : "");
+      root.appendChild(g);
+      for (const w of items) {
+        const mark = w.task ? (w.done ? "✅ " : "☐ ") : "· ";
+        root.appendChild(icon(`${w.date} — ${mark}${w.text}`, w.link));
+      }
+    }
+  }
+
+  // Wins (unchanged — restored style)
+  const h2 = document.createElement("h3");
+  h2.className = "rh";
+  h2.textContent = "🏆 Wins";
+  root.appendChild(h2);
+
+  const allWins = [
+    ...wonTasks.map(w => ({ date: w.date, text: "✅ " + w.text, link: w.link })),
+    ...winLines.map(w => ({ date: w.date, text: w.text.replace(WIN_TAG, "").trim(), link: w.link }))
+  ];
+
+  if (allWins.length === 0) {
+    const e = document.createElement("div");
+    e.className = "empty";
+    e.textContent = "No wins recorded in this period. Tag a completed task with #win or put it under a 'Wins' heading in a daily note to collect it here.";
+    root.appendChild(e);
+  } else {
+    for (const w of allWins.slice(0, 60)) {
+      root.appendChild(icon(`🏆 ${w.date} — ${w.text}`, w.link));
+    }
+  }
 
   // hint
   const hint = document.createElement("div");
   hint.className = "empty";
   hint.style.marginTop = "16px";
-  hint.textContent = "Tip: every row opens its daily note. Work comes from Today sections; wins come from completed Wins entries or #win tasks. Use ◀ Prev / Next ▶ to move between periods.";
+  hint.textContent = "Tip: only explicit wins show here — a completed task tagged #win or under a 'Wins' heading, or a #win line. The Charts section is the experiment: activity line, done-vs-open bars, and the work mix doughnut. Tell me what to change.";
   root.appendChild(hint);
 }
 
@@ -858,19 +562,28 @@ function buildMarkdown(label, periodPages, work, doneTasks, wonTasks, winLines, 
   lines.push(`> Generated ${new window.moment().format("dddd, MMMM D, YYYY h:mm A")}`);
   lines.push("");
   const pct = (d, a) => (a > 0 ? Math.round((d / a) * 100) : 0);
-  const doneCount = work.filter(w => w.task && w.done).length;
+  const doneCount = doneTasks.length;
   const taskTotal = work.filter(w => w.task).length;
   lines.push("## 📌 Highlights");
   if (impacts.length) lines.push(...impacts.slice(0, 12).map(im => `- ✨ [[${im.link.path}|${im.date} — ${im.text}]]`));
   else lines.push("- ");
   lines.push("");
   lines.push("## 🚀 Wins");
-  const wins = collectWins(wonTasks, winLines).map(w => `- ✅ [[${w.link.path}|${w.date} — ${w.text}]]`);
+  const wins = [
+    ...wonTasks.map(w => `- ✅ [[${w.link.path}|${w.date} — ${w.text}]]`),
+    ...winLines.map(w => `- [[${w.link.path}|${w.date} — ${w.text}]]`)
+  ];
   if (wins.length) lines.push(...wins.slice(0, 40));
   else lines.push("- ");
   lines.push("");
   lines.push(`## 💪 What I Worked On  (${periodPages.length} days · ${work.length} items · ${doneCount}/${taskTotal} tasks done, ${pct(doneCount, taskTotal)}%)`);
-  for (const [ticket, items] of groupWorkItems(work)) {
+  const groups = new Map();
+  for (const w of work) {
+    const key = w.ticket || "General";
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(w);
+  }
+  for (const [ticket, items] of groups) {
     lines.push(ticket === "General" ? "### 🗂 General" : `### 🔖 #${ticket}`);
     for (const w of items) {
       lines.push((w.task ? (w.done ? "- ✅ " : "- ☐ ") : "- · ") + `[[${w.link.path}|${w.date} — ${w.text}]]`);
@@ -890,6 +603,6 @@ function buildMarkdown(label, periodPages, work, doneTasks, wonTasks, winLines, 
 render();
 ```
 
-> **What's in the beta now:** the real hub's wins rules and Copy-as-Markdown, a progress-led **What I Worked On** view grouped by work item, a dated **Wins** timeline, a **Tracker** activity calendar, and a **Charts** section (work-items line, done-vs-open bars, work-mix doughnut). Everything themes itself to your active Obsidian theme.
+> **What's in the beta now:** the exact old hub (wins list, cards, group-by-ticket, Copy-as-Markdown) plus a **Tracker** activity calendar (wins + days logged month views) and a **Charts** section (work-items line, done-vs-open bars, work-mix doughnut). Everything themes itself to your active Obsidian theme.
 >
 > Restart Obsidian once so the **Charts** and **Tracker** plugins register, then open this note. Future experiments stay in this file until we agree, then I promote it.
