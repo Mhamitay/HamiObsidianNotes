@@ -8,3 +8,10 @@
 
 Staging: https://staging.fieldpro-software.com/
 mahamat.hammad+brama@fieldpro-software.com
+
+
+
+
+
+
+[GitHub - ktaranov/naming-convention: Templates for naming convention - TSQL, JavaScript, C#, R, Python, Powershell · GitHub](https://github.com/ktaranov/naming-convention)

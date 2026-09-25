@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f77f1d37bf546da8",
+        "id": "938bf0ee1d4b92fd",
         "type": "tabs",
         "children": [
           {
-            "id": "91b58ba0492bbb42",
+            "id": "e29f1856efec3c67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Personal/yalat/Info.md",
+                "file": "02 Work/FieldPro/001 Dashboard/02 Reports Hub (beta).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Info"
+              "title": "02 Reports Hub (beta)"
+            }
+          },
+          {
+            "id": "7d7d21fb1bda697f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026-09-25.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-09-25"
+            }
+          },
+          {
+            "id": "826a07bd67fea2c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026-09-25.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-09-25"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "insur",
+                "query": "tag:#blocker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -348,14 +397,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91b58ba0492bbb42",
+  "active": "7d7d21fb1bda697f",
   "lastOpenFiles": [
     "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W4/2026-09-24.md",
-    "01 Personal/yalat/Info.md",
-    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W4/2026-09-21.md",
+    "02 Work/FieldPro/001 Dashboard/02 Reports Hub (beta).md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026-09-25.md",
+    "02 Work/FieldPro/001 Dashboard/02 Reports Hub.md",
     "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W4/2026-09-23.md",
-    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-18.md",
+    "Dashboards/Bases/New Base.base",
+    "02 Work/FieldPro/001 Dashboard/01 Quick Links.md",
+    "02 Work/FieldPro/001 Dashboard/00 Index.base",
+    "02 Work/FieldPro/04 Lessons Learned/Things I Dont Want to Forget/DateTimeOffset Storage Gotcha.md",
+    "02 Work/FieldPro/04 Lessons Learned/SQL Codegen Root-Cause Investigation.md",
     "02 Work/FieldPro/001 Dashboard/00 FieldPro_Command_Center_v3.md",
+    "02 Work/FieldPro/04 Lessons Learned/Bugs Fixed/Null Reference on Cancelled Work Orders.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W4/2026-09-21.md",
+    "02 Work/FieldPro/08 Templates/Yearly Review.md",
+    "02 Work/FieldPro/001 Dashboard/Untitled.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-21.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W1-2/2026-09-12.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-11.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-15.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-18.md",
+    "01 Personal/yalat/Info.md",
+    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Aug26/w 1-3/2026-08-18.md",
     "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/Index.md",
     "02 Work/FieldPro/04 Lessons Learned/How To/Add a country.md",
     "02 Work/FieldPro/08 Templates/Daily Note (Dev).md",
@@ -369,30 +434,13 @@
     "reactweb/dist/icons.svg",
     "reactweb/dist/favicon.svg",
     "reactweb/dist",
-    "reactweb/node_modules/scheduler/index.js",
-    "reactweb/node_modules/react-dom/index.js",
-    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-18.md",
     "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-17.md",
     "reactweb/node_modules/@types/react/README.md",
-    "reactweb/node_modules/vite/README.md",
-    "reactweb/node_modules/lightningcss/README.md",
-    "reactweb/node_modules/lightningcss-win32-x64-msvc/README.md",
-    "reactweb/node_modules/source-map-js/README.md",
-    "reactweb/node_modules/tinyglobby/README.md",
     "reactweb/src/assets/react.svg",
     "reactweb/src/assets/hero.png",
     "reactweb/src/assets/vite.svg",
-    "reactweb/README.md",
     "reactweb/public/icons.svg",
     "reactweb/public/favicon.svg",
-    "02 Work/FieldPro/001 Dashboard/01 Quick Links.md",
-    "02 Work/FieldPro/001 Dashboard/Untitled.md",
-    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-14.md",
-    "02 Work/FieldPro/002 Dev Cabinet/00 Daily Notes/2026/Sep26/W3/2026-09-15.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "02 Work/FieldPro/wi-3970.md",
-    "Obsidian_Markdown_Reference(1).md",
     "1000 Images/Pasted image 20260828100953.png",
     "1000 Images/Pasted image 20260828110333.png",
     "1000 Images/Pasted image 20260828110217.png"

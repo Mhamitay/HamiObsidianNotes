@@ -432,7 +432,7 @@ The preferred end state is a clean SQL build with no unexpected warnings.
 
 ### Type Safety
 
-- [ ] SQL types are derived from metadata.
+- [ ] SQL types are derived from metadata. 🆔 tucfk0
 - [ ] No unintended integer narrowing exists.
 - [ ] Unicode types are preserved.
 - [ ] String lengths match the source definition.
