@@ -318,7 +318,7 @@
   "inlineEditCommands": [],
   "projectList": [],
   "lastDismissedVersion": null,
-  "lastShownStartupVersion": "4.0.11",
+  "lastShownStartupVersion": "4.0.12",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
@@ -459,29 +459,6 @@
         }
       },
       {
-        "id": "kimi-k2.7-code",
-        "displayName": "Kimi K2.7 Code",
-        "description": "Optimized for coding tasks.",
-        "toolCall": true,
-        "reasoning": true,
-        "reasoningEfforts": [
-          "none",
-          "high"
-        ],
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "limits": {
-          "context": 262144
-        }
-      },
-      {
         "id": "deepseek-v4-pro",
         "displayName": "DeepSeek V4 Pro",
         "description": "A top-tier model for the hardest reasoning and agentic tasks.",
@@ -543,25 +520,23 @@
         }
       },
       {
-        "id": "mimo-v2.5",
-        "displayName": "MiMo V2.5",
-        "description": "Cost-effective and capable for everyday use.",
+        "id": "mimo-v2.6-flash",
+        "displayName": "MiMo V2.6 Flash",
+        "description": "Cost-effective model for everyday use.",
         "toolCall": true,
         "reasoning": true,
-        "reasoningEfforts": [
-          "none",
-          "high"
-        ],
+        "reasoningEfforts": [],
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
             "text"
           ]
         },
         "limits": {
-          "context": 262144
+          "context": 1048576
         }
       },
       {
