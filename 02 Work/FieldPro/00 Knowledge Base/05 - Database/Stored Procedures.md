@@ -114,3 +114,4 @@ Some DevExpress reports call SPs directly via `CustomSqlDataConnectionProviderFa
 - [[DB Service]]
 - [[Data Access Pattern]]
 - [[Views]]
+- [[Generate MERGE Scripts with sp_generate_merge]] — how-to: using `sp_generate_merge` to deploy reference data between environments
